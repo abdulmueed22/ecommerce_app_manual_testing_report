@@ -44,18 +44,4 @@ Each test case includes:
 
 Requirement IDs (`REQ-*`), scenario IDs (`TS-*`), and test case IDs (`TC-*`) are used consistently across the workbook to make coverage easier to review and maintain.
 
-## Execution Notes
 
-- Test cases are initially marked **Not Executed**. Update the actual result only after running the test.
-- Use a dedicated test/staging environment and **Stripe test mode** for payment scenarios.
-- Do not use real customer information or live payment credentials.
-- Confirm field requirements, role permissions, order statuses, and expected behavior against the current application build before execution.
-- Record failures and link them to defect IDs or supporting screenshots as appropriate.
-
-## Deliverable
-
-The main deliverable is the Excel workbook:
-
-`ecommerce_app_manual_testing_report.xlsx`
-
-It can be used as a baseline for manual QA execution, test evidence collection, and requirement coverage reviews.
