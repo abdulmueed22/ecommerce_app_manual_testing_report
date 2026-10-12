@@ -8,7 +8,7 @@ This workbook documents important application features and maps requirements to 
 
 ## Scope of Testing
 
-The report focuses on four high-priority feature areas:
+The report focuses on high-priority feature areas:
 
 1. **Authentication and Profile Access** — registration, login validation, and logout/session behavior.
 2. **Product Discovery** — product listings, product details, category browsing, and search.
